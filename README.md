@@ -36,7 +36,7 @@ void printFile(const std::string& format, const std::string& filePath) {
     file.close();
 }
 ```
-![Результат](image.png "Результат")
+![Результат](task1.png "Результат")
 ## 2. Битовые операции.
 ```
 void taskTwo(const std::string& command, int num1, int num2) {
@@ -99,6 +99,7 @@ void taskTwo(const std::string& command, int num1, int num2) {
     std::cout << std::endl;
 }
 ```
+![Результат](task2.png "Результат")
 ## 3. Модульная арифметика.
 ```
 int gcd(int a, int b) {
@@ -151,6 +152,7 @@ int divideMod(int a, int b, int m) {
     return (a * inverse) % m;
 }
 ```
+![Результат](task3.png "Результат")
 ## 3.2 Модульная арифметика на полиномах GF(2,n).
 ```
 uint32_t PolynomialDegree(uint32_t num) {
@@ -211,6 +213,7 @@ uint32_t GF2nInverse(uint32_t a, uint32_t m) {
     }
 }
 ```
+![Результат](task32.png "Результат")
 ## 4. Проверка числа на простоту.
 ```
 void printPrimes(int N) {
@@ -261,6 +264,7 @@ bool isPrime(int num) {
     return true;
 }
 ```
+![Результат](task4.png "Результат")
 ## 5. Арифметика больших чисел.
 ```
 class BigInteger {
@@ -449,3 +453,4 @@ public:
     }
 };
 ```
+![Результат](task5.png "Результат")
