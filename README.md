@@ -36,6 +36,7 @@ void printFile(const std::string& format, const std::string& filePath) {
     file.close();
 }
 ```
+![Результат](imagine.png "Результат")
 ## 2. Битовые операции.
 ```
 void taskTwo(const std::string& command, int num1, int num2) {
