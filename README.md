@@ -1,6 +1,6 @@
 # Лабораторная работа № 1. Основной математический аппарат
 ## 1. Бинарное представление данных.
-
+```
 void printFile(const std::string& format, const std::string& filePath) {
     std::ifstream file(filePath, std::ios::binary);
 
@@ -34,3 +34,4 @@ void printFile(const std::string& format, const std::string& filePath) {
 
     file.close();
 }
+```
